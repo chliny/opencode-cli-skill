@@ -111,7 +111,7 @@ python3 scripts/opencode_run.py --dir "$PWD" --file src/main.ts "Review this fil
 使用此 skill 时，可能需要配置以下环境变量：
 
 - `OPENCODE_SERVER_URL`：OpenCode Server 的连接地址（例如 `http://127.0.0.1:4096`）。若不提供，脚本或命令通常会尝试默认本地地址。
-- `OPENCODE_SERVER_PASSWORD`：连接 OpenCode Server 所需的身份验证密码。建议通过环境变量转发，避免在命令行参数中明文传递。
+- `OPENCODE_SERVER_PASSWORD`：连接 OpenCode Server 所需的身份验证密码。
 
 ## 安全与执行规则
 
